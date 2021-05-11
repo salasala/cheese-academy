@@ -1,0 +1,332 @@
+/* ここから下に記載していく */
+.container{
+    display: grid;
+    grid-template-rows: 120px auto 90px ;
+    grid-template-columns:1fr 4fr 1fr ;
+}
+.header{
+    grid-row: 1/ 2;
+    grid-column: 2/-2;
+}
+
+.main{
+    grid-row: 2/3;
+    grid-column: 2/-2;
+
+}
+
+
+p.a{
+position: relative;
+font-size: 60px;
+font-family:serif;
+top: 30px;
+left:30px;
+bottom: 28px;
+}
+h1.b{
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+    bottom: 25px; 
+    left:80px;
+}
+h2.c{
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+    left:80px;
+    bottom:20px;
+}
+header h6{
+    display: inline-block;
+
+}
+h6{
+    position: relative;
+    font-family: monospace;
+    bottom:50px;
+    left:400px;
+    font-size: 15px;
+}
+h6.e{
+    left:450px;
+}
+h6.f{
+    left:500px;
+}
+h6.g{
+    left:550px;
+}
+h6.h{
+    left:600px;
+}
+
+main h2.i{
+    color: white ;
+    font-size: 30px;
+    position: relative;
+    top:80px;
+    left:160px;
+}
+main h2.koko{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top:110px;
+    left:150px;
+
+}
+main h5.j{
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-size: 24px;
+}
+main h5.k{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+main h5.l{
+    text-align: center;
+    position: relative;
+    top:130px;
+}
+main h5.m{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+main h5.n{
+    text-align: center;
+    position: relative;
+    top:190px;
+}
+main h5.o{
+    text-align: center;
+    position: relative;
+    top:220px;
+    bottom: 80px;
+}
+.content{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+    left: 470px;
+}
+.inner{
+    display:flex;
+    justify-content: space-evenly;
+}
+h5.momo{
+    text-align: center;
+    position: relative;
+    top: 500px;
+    font-size: 24px;
+}
+h5.rara{
+    text-align: center;
+    position: relative;
+    top: 530px;
+}
+.ebi{
+    position: relative;
+    top: 590px;
+}
+.lili{
+    position: relative;
+    top: 300px;
+    left: 600px;
+    font-size: 24px;
+    font-family: serif;
+}
+.hii{
+    position: relative;
+    top: 340px;
+    left: 580px;
+    font-size: 15px;
+}
+.gii{
+    position: relative;
+    top: 412px;
+    left: 497px;
+}
+.yuu{
+    position: relative;
+    top: 140px;
+    left: 80px;
+    font-size: 24px;
+    font-family: serif;
+}
+.jii{
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+.tuu{
+    position: relative;
+    top: 225px;
+}
+.ruu{
+    position: relative;
+    top: -50px;
+    left: 580px;
+    font-size: 24px;
+    font-family: serif;
+}
+.eee{
+    position: relative;
+    top: -30px;
+    left: 560px;
+}
+.woo{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 24px;
+}
+.fuu{
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.ree{
+    position: relative;
+    top: 180px;
+    left: 40px;
+}
+.quu{
+    position: relative;
+    top: 190px;
+    left: 60px;
+    font-size: 10px;
+}
+.zoo{
+    position: relative;
+    top: 105px;
+    left:390px ;
+    font-size: 10px;
+}
+.moo{
+    position: relative;
+    top: 25px;
+    left: 700px;
+    font-size: 10px;
+}
+.hoo{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.coo{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 24px;
+}
+.uuu{
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.boo{
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
+.voo{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.mii{
+    position: relative;
+    top: 184px;
+    left: 500px;
+}
+.goo{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.foo{
+    position: relative;
+    top: 184px;
+    left: 500px;
+}
+.doo{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.hana{
+    position: relative;
+    top: 184px;
+    left: 500px;
+}
+.jiji{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.ruru{
+    position: relative;
+    top: 184px;
+    left: 500px;
+}
+.hihi{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.eiei{
+    position: relative;
+    top: 184px;
+    left: 500px;
+}
+.kiki{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+.sisi{
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+.hoho{
+    text-align: center;
+    position: relative;
+    top: 390px;
+}
+.bibi{
+    position: relative;
+    top: 450px;
+    text-align: center;
+}
+.fromBox{
+position: relative;
+top: 500px;
+left: 300px;
+}
+.ju{
+    position: relative;
+    top: 550px;
+    text-align: center;
+}
+.footer{
+    grid-row: 3/4;
+    grid-column: 2/-2;
+    background-color:grey;
+position: relative;
+top: 600px;
+}
+.sakura{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
